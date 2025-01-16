@@ -1,0 +1,174 @@
+#furina-half-b {
+    width: 195%;
+    margin-left: -380px;
+    margin-top: -28px;
+}
+
+.furina-shade {
+    width: 195%;
+    margin-left: -380px;
+    margin-top: -25px;
+}
+
+.circle {
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(33, 43, 49, 0);
+}
+
+.pyro {
+    filter: saturate(0) opacity(100%) brightness(100);
+}
+
+.cryo {
+    filter: brightness(0) saturate(100%) invert(89%) sepia(3%) saturate(2954%) hue-rotate(148deg) brightness(97%) contrast(96%);
+}
+
+.intro-name {
+    background-color: rgb(33, 43, 49);
+    border: 3px solid rgb(255, 255, 255);
+    height: 140px;
+}
+
+.elements {
+    background-color: rgb(33, 43, 49);
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.w-border {
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.gold-text {
+    color: rgb(10, 22, 32);
+    font-weight: bolder;
+}
+
+.small-rec {
+    background-color: rgb(33, 43, 49);
+    border: 3px solid rgb(255, 255, 255);
+    top: -485px;
+}
+
+.furina-pfp {
+    position: relative;
+    top: -120px;
+}
+
+.five-stars {
+    position: relative;
+    top: -123px;
+}
+
+#info{
+    position: relative;
+    top: -140px;
+}
+
+.short-info{
+    position: relative;
+    top: 10px;
+}
+
+.w-border{
+    position: relative;
+    margin-top: 40px;
+}
+.w-img{
+    margin-top: 5px;
+    margin-left: 13px;
+    width: 85%;
+}
+
+.info-content{
+    margin-top: -60px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .furina-full-b {
+    bottom: 670px;
+    left: 55px;
+    width: 100%;
+  }
+  .artifacts{
+    position: relative;
+    top: -680px;
+    left: 350px;
+  }
+
+  .small-rec{
+    top: -80px;
+    height: 250px;
+    left: -1px;
+  }
+
+  .short-info{
+    top: 270px;
+    left: 15px;
+
+  }
+  .furina-pfp{
+    top: 200px;
+   left: 10px;
+  }
+
+  .five-stars{
+    top: 200px;
+    left: 5px;
+  }
+
+  #info{
+    top: 180px;
+    left: -18px;
+  }
+
+  .intro-name{
+    left: 85px;
+    left: 20px;
+    height: 100px;
+  }
+
+  .name{
+    left: -5px;
+  }
+
+  .elements{
+    left: 50px;
+  }
+
+  .el-row{
+    left: 64px;
+  }
+
+  .w-border{
+   top: -95px;
+   left: 25px;
+   width: 89px;
+  }
+
+  .w-img{
+     left: 70px;
+     top: -70px;
+
+  }
+
+  .mob-rect{
+    width: 110%;
+    right: 20px;
+  }
+
+  .best-ars{
+    right: 100px;
+    top: 50px;
+  }
+  .gold-text{
+    right: 100px;
+    top: 40px;
+  }
+  .signature-wep{
+    right: 100px;
+    top: 40px;
+    animation: none;
+  }
+}

@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+body { 
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden; 
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    }
+    #myVideo { 
+    position: absolute; 
+    right: 0; 
+    bottom: 0; 
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto; 
+    height: auto; 
+    z-index: -1;
+    }
+
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  nav {
+    position: relative;
+    z-index: 10; 
+    top: -435px;
+}
+ul {
+    z-index: 100;
+}
+
+nav ul {
+    z-index: 100;
+    display: flex;
+    list-style: none;
+    font-size: 150%;
+    gap: 40px;
+}
+
+.selection {
+    z-index: 100;
+    font-weight: bolder;
+}
+
+nav ul li {
+    z-index: 10;
+    margin: 0 15px;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: #000000;
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
+
+}
+
+nav ul li a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    width: 300%;
+    height: 200%;
+    transition: left 0.7s ease-in-out;
+    z-index: 0;
+}
+
+nav ul li a:hover {
+    text-shadow: #ffffff 5px 0 10px;
+}
+
+nav ul li a:hover::before {
+
+    left: 100%;
+
+    nav ul li a:hover {
+        text-decoration: none;
+
+    }
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 900px;
+    text-align: center;
+ 
+}
+
+.info-section {
+    width: 60%;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.info-section h2 {
+    margin-bottom: 15px;
+}
+
+.info-section p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.login-section {
+    width: 40%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8ead90;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #000000;
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        font-size: 100%;
+        gap: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        top: 1px;
+        height: auto;
+       position: relative;
+       left: -100px;
+       
+    }
+
+    .info-section {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .login-section {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .login-form h2 {
+        font-size: 1.2em;
+    }
+
+    .login-form input {
+        font-size: 0.9em;
+        padding: 8px;
+
+    }
+  
+    .login-form button {
+        font-size: 0.9em;
+        margin-left: 1px;
+    }
+    nav {
+        font-size: 12px;
+      text-align: center;
+    }
+
+    nav ul {
+        gap: 5px;
+    }
+
+    ul {
+        display: flex;
+        position: relative;
+        align-items: center;
+        left: 100px;
+    }
+}
+
+
+@media (max-width: 390px) {
+    ul {
+       top: 40px;
+       left: 110px;
+    }
+    .container {
+        top: -10px;
+        left: -80px;
+
+    }
+}
+@media (max-width: 420px) {
+    ul {
+       top: 40px;
+       left: 120px;
+    }
+    .container {
+        top: -10px;
+        left: -80px;
+
+    }
+}
+
+@media (max-width: 380px){
+    ul {
+        top: 90px;
+        left: 100px;
+     }
+    .container {
+        left: -80px;
+        margin-top: 90px;
+    }
+    .info-section{
+        font-size: small;
+    }
+}
+
+@media (max-width: 375px){
+    ul {
+        top: 120px;
+        left: 130px;
+     }
+    .container {
+        left: -60px;
+        margin-top: 90px;
+    }
+    .signup-section{
+       
+        height:200px;
+      margin-top: 12
+      0px;
+    }
+    #submitButton{
+        width: 60px;
+        height: 20px;
+        font-size: 5px;
+    }
+}

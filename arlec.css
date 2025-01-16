@@ -1,0 +1,161 @@
+
+.hydro {
+    filter: saturate(0) opacity(100%) brightness(100);
+}
+
+.furina-full-b-shad {
+    display: none;
+}
+
+.furina-shade {
+    padding-top: -436px;
+    filter: saturate(0) opacity(50%) brightness(0);
+}
+
+.w-img {
+    position: relative;
+    right: 10px;
+    width: 93%;
+    top: 30px;
+}
+
+.small-rec {
+    z-index: 1;
+}
+
+.furina-half-b {
+    z-index: 100;
+}
+
+.name {
+    position: relative;
+    width: 736px;
+    height: 129px;
+    left: 74%;
+    top: 575px;
+}
+
+.circle{
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+.pyro{
+    filter: brightness(0) saturate(100%) invert(48%) sepia(93%) saturate(540%) hue-rotate(339deg) brightness(96%) contrast(101%);
+}
+
+.small-rec{
+    position: relative;
+    bottom: 320px;
+    height: 340px;
+    background-color: rgb(14, 3, 3);
+    opacity: 50%;
+    bottom: 550px;
+}
+.short-info{
+    position: relative;
+    top: -75px;
+}
+
+.furina-pfp{
+    position: relative;
+    top: -215px;
+}
+.five-stars{
+    position: relative;
+    top: -205px;
+}
+#info{
+    position: relative;
+    margin: 20px;
+    bottom: 220px;
+}
+
+.intro-name{
+    background-color: rgb(14, 3, 3);
+    opacity: 70%;
+}
+
+.elements{
+    background-color: rgb(14, 3, 3);
+    opacity: 70%;
+    height: 80px;
+}
+
+.w-border{
+    position: relative;
+    top: -80px;
+ }
+
+#furina-half-b{
+    top: -58.1px;
+}
+
+@media screen and (max-width: 480px) {
+   
+    .mob-rect{
+        left: -35px;
+        top: -15px;
+        width: 120%;
+    }
+    
+    .furina-full-b{
+        bottom: 672px;
+        left: 2px;
+        width: 120%;
+        z-index: 10;
+    }
+
+    .small-rec{
+        top: -140px;
+        height: 230px;
+    }
+
+    #info{
+        top: 100px;
+    }
+
+    .furina-pfp{
+        top: 120px;
+    }
+    
+    .five-stars{
+        top: 120px;
+        right: -15px;
+    }
+    .short-info{
+        top: 195px;
+        left: 23px;
+    }
+    .artifacts{
+        position: relative;
+        left: 370px;
+        padding-top: 29px;
+    }
+
+    .w-border{
+        margin-top: 30px;
+    }
+    .w-img{
+        position: relative;
+        top: -70px;
+        left: -5px;
+        width: 80%;
+    }
+
+    .elements{
+        height: 50px;
+        top: 605px;
+    }
+
+    .intro-name{
+        top: 490px;
+    }
+
+    .name{
+        position: relative;
+        left: -5px;
+        top: 500px;
+        width:339px;
+        height: 67px;
+    }
+}

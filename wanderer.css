@@ -1,0 +1,135 @@
+.electro{
+    filter: saturate(0) opacity(100%) brightness(100);
+}
+
+.anemo{
+
+    filter: brightness(0) saturate(100%) invert(72%) sepia(29%) saturate(353%) hue-rotate(121deg) brightness(98%) contrast(84%);
+}
+
+#furina-half-b{
+   
+    width: 100%;
+    margin-top: -36px;
+    margin-left: 130px;
+}
+
+.furina-shade{
+    width: 100%;
+    margin-top: -34px;
+    margin-left: 120px;
+}
+
+.name{
+    top: 575px;
+}
+
+.cryo{
+    filter: saturate(0) opacity(100%) brightness(100);
+}
+
+.gold-text{
+    color: rgb(193, 248, 255);
+}
+
+.info-content{
+    bottom: 365px;
+}
+
+.w-border{
+    margin-top: -10px;
+}
+.w-img{
+    width: 110%;
+    left: -30px;
+    margin-top: -30px;
+}
+
+@media screen and (max-width: 480px){
+    .furina-full-b{
+        width: 130%;
+        top: -520px;
+        left: -50px;
+    }
+
+    .name{
+        top: 620px;
+    }
+
+    .intro-name{
+        top: 600px;
+    }
+
+    .el-row
+    {
+        top: 740px;
+    }
+
+    .elements{
+        top: 730px;
+    }
+
+    .small-rec{
+        left: 10px;
+        top: -65px;
+    }
+
+    #info{
+        left: -5px;
+        top: 200px;
+    }
+
+    .short-info{
+        left: 30px;
+        top: 290px;
+
+    }
+
+    .five-stars{
+        left: 15px;
+        top: 215px;
+    }
+
+    .furina-pfp{
+        top: 215px;
+        left: 25px;
+        width: 25%;
+    }
+
+    .artifacts{
+       top: -745px;
+    }
+
+    .w-border{
+        top: 75px;
+        left: -35px;
+    }
+
+    .best-ars{
+        top: 55px;
+        left: 5px;
+    }
+
+    .gold-text{
+        top: 55px;
+        left: 10px;
+    }
+
+    .signature-wep{
+        top: 55px;
+        left: 10px;
+    }
+
+    .w-img{
+        top: 100px;
+        width:85px;
+        height: 86px;
+        left: 5px;
+    }
+
+    .w-border{
+        width: 80px;
+        left: -25px;
+        top: 73px;
+    }
+}

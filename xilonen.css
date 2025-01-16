@@ -1,0 +1,113 @@
+.geo{
+    filter: brightness(0) saturate(100%) invert(76%) sepia(75%) saturate(1294%) hue-rotate(1deg) brightness(103%) contrast(99%);
+}
+
+.dendro{
+    filter: saturate(0) opacity(100%) brightness(100);
+}
+
+.gold-text{
+    color: rgb(51, 8, 5);
+}
+
+#furina-half-b{
+    width: 150%;
+    margin-left: 14.5%;
+    margin-top: -1%;
+}
+
+.furina-shade{
+    width: 150%;
+    margin-left: 18.5%;
+    margin-top: -0.5%;
+}
+
+.artifacts{
+    z-index: 100;
+}
+
+.small-rec{
+    height: 400px;
+    top: -529px;
+    background-color: rgba(63, 30, 11, 0.404);
+}
+
+.name{
+    top: 580px;
+}
+
+.intro-name{
+    background-color: rgba(63, 30, 11, 0.404);
+}
+
+
+.elements{
+    background-color: rgba(63, 30, 11, 0.404);
+}
+
+.w-img{
+    width: 88%;
+    padding-top: 38px;
+    padding-left: 25px;
+}
+
+.w-border{
+    height: 190px;
+    margin-top: 16px;
+}
+
+.furina-pfp{
+    top: -130px;
+}
+
+.five-stars{
+    top: -130px;
+}
+
+.short-info{
+    top: -15px;
+}
+
+#info{
+    top: -140px;
+}
+
+@media screen and (max-width: 480px){
+    .artifacts{
+        top: -680px;
+        left: 340px;
+    }
+
+    .w-border{
+        top: 90px;
+        left: -30px;
+    }   
+
+    .w-img{
+        top: 50px;
+        left: -20px;
+    
+    }
+
+    .furina-pfp{
+        top: -95px;
+    }
+
+    .five-stars{
+        top: -95px;
+    }
+    .w-border{
+        height: 85px;
+        top: 40px;
+    
+    }
+    .short-info{
+        top: 20px;
+    }
+    
+     #furina-half-b{
+        width: 190%;
+        margin-left: 14.5%;
+        margin-top: -1%;
+     }
+}
